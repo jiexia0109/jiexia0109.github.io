@@ -1,0 +1,41 @@
+/* ============================
+   Home intro layout (desktop)
+   ============================ */
+
+/* 控制首页 post 列表标题大小 */
+.post-preview h2.post-title {
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+
+/* 首页简介区：桌面端左右排 */
+.intro-flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+/* ============================
+   Mobile optimization
+   ============================ */
+
+/* 手机端：改为上下排，居中 */
+@media (max-width: 768px) {
+  .intro-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro-flex img {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  /* 手机端文字稍微紧凑一点 */
+  .intro-flex p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
