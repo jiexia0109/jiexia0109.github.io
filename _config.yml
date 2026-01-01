@@ -21,9 +21,7 @@ author: Jie Xia
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Blog: "blog"
   Author's home: "https://jiexia0109.github.io"
 
 ################
