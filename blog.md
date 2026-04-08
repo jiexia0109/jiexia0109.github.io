@@ -2,6 +2,5 @@
 layout: home
 title: Blog
 permalink: /blog/
+category: blog
 ---
-
-{% assign posts = site.categories.blog %}
